@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "remix": "^1.7.6",
+    "remix-ide": "^0.10.3",
+    "solc": "^0.8.17",
+    "web3": "^0.20.3"
+  }
+}

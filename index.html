@@ -97,6 +97,7 @@ button.button_2:hover {
         var minutes = time.getMinutes();
         var x =document.getElementById("frm1");
         var is_true=Number(x.elements[0].value);
+        
       if(Number((is_true))==hours+minutes){  
        //frm1에 해당하는 값들 배열형식으로 가져오기
       var text="";
@@ -119,7 +120,9 @@ button.button_2:hover {
    }
   }
   </script>
-   
+  <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="./index.js"></script>
   
 </html>
 

@@ -1,0 +1,11 @@
+deployedContract.deploy({
+	data: bytecode,
+	arguments: "hi"
+
+}).send({
+	from: '0x38252Bc9FD1435F3f1F1d5638AaC999C45682455':,
+	gas 1500000,
+	gasPrice: web3.utils.toWei('0.0003','ether')
+}).then((newContractInstance) => {
+	deployedContract.options.address=newContractInstance.options.address;
+})	
