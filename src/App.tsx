@@ -1,7 +1,9 @@
+import { chakra } from "@chakra-ui/react";
 import React, { FC } from "react";
+import { Button } from "@chakra-ui/react";
 
 const App: FC = () => {
-  return <div>web3-boilerplate</div>;
+  return <Button>web3-boilerplate</Button>;
 };
 
 export default App;
