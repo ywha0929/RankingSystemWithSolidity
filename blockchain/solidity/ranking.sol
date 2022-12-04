@@ -101,9 +101,6 @@ contract Ranking {
                 Users[uint(j+1)] = keyOwner;
                 // data[uint(j + 1)] = key;
             }
-            ranks[0] = Users[0];
-            ranks[1] = Users[1];
-            ranks[2] = Users[2];
         }
 
     function _sortByTimestamp() public  {
@@ -139,7 +136,7 @@ contract Ranking {
         //_sortUsers(mode);
         // _sortUsers();
         bytes32 user;
-        user = ranks[rank];
+        user = Users[rank];
         return user;
     }
 

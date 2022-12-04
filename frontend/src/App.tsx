@@ -2,6 +2,8 @@ import React, { FC, useEffect , useState} from "react";
 import {Button} from "@chakra-ui/react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Main from "./routes/main";
+import QuizPage from "./routes/quizPage";
+import RankingPage from "./routes/rankingPage";
 
 const App: FC = () => { 
   const [account, setAccount] = useState<string>("");
@@ -35,6 +37,7 @@ const App: FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/rankingPage" element={<RankingPage/>}/>
       </Routes>
     </BrowserRouter>
   )

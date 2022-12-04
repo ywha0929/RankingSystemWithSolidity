@@ -1,7 +1,10 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { BrowserRouter , Routes, Route} from "react-router-dom";
+import Main from "./routes/main";
+import QuizPage from "./routes/quizPage";
+import RankingPage from "./routes/rankingPage";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -9,9 +12,16 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider>
-      <App />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/rankingPage" element={<RankingPage/>}/>
+      </Routes>
+    </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>,
+  
+
   document.getElementById("root")
 );
 

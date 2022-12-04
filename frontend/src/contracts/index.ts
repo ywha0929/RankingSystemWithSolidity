@@ -357,7 +357,7 @@ const RankingABI: AbiItem[] = [
 		"type": "function"
 	}
 ];
-const RankingAddress = "0xE954f40cc168f7dA298fD8FC52d8A75194F36e43";
+const RankingAddress = "0xfEaCab3b0A742FDC70Cd6Fbd60cf0ee94CffcD5b";
 
 export const web3 = new Web3(
 	window.ethereum

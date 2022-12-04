@@ -395,10 +395,10 @@
 			]
 		},
 		"solidity/ranking.sol": {
-			"keccak256": "0x14ef6bdfbc44abb4527d734acc332191cc55aec03331509a899d19f08c71d6cc",
+			"keccak256": "0x4bd8eaef8db548e45313e52a57fa60ef6436d968f9d859383de7c79e7fa3689f",
 			"urls": [
-				"bzz-raw://bd8a9d4b48477799a988c4b4d6a3d9f377bc9f68aa682efb40a4c36cada249fc",
-				"dweb:/ipfs/QmUT4FgQpoTGQTEzntMaH9pBPnC5QFkcDgaCMjRwP6smyt"
+				"bzz-raw://1cb0922e84a5bdeb188ba13ef5a66152bcee9bac639f6bcaf2bbc8d35b9f989e",
+				"dweb:/ipfs/QmdUySumucL197cDNJogx5Az5Ghoexhh3kB9NPXMcMSTpb"
 			]
 		}
 	},

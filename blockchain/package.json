@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "@remix-project/remixd": "^0.6.8",
     "ganache-cli": "^6.12.2",
-    "remix": "^1.7.6",
+    "remix": "^1.8.0",
     "remix-ide": "^0.10.3",
+    "remixd": "^0.2.4",
     "solc": "^0.8.17",
     "web3": "^0.20.3"
   }

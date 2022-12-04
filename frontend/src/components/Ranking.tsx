@@ -8,7 +8,7 @@ interface MainProps {
     account: string;
 }
 
-class Ranking extends Component{
+class Ranking extends React.Component{
     state = {
         Rankings : new Array(),
     }
@@ -43,19 +43,13 @@ class Ranking extends Component{
     }
 
     render () {
-        let Ranks = this.state.Rankings.map((item,index) => {
-            console.log(item);
-            <Text> {item}</Text>
-        })
-        return <Flex w="full" h="100vh" justifyContent="center" alignItems="center" direction="column">
-
-                 <Button mt={4} size="sm" colorScheme="blue" onClick={this.onClickRefresh}>
-                   Refresh
-                </Button>
-
-                {this.state.Rankings.map(item =>(
-                    <Text key={item}> {item.Name}    {item.numSolved}</Text>
-                ))}
+        return <Flex w="full" h="0" justifyContent="center" alignItems="center" direction="column">
+            <Button size="lg" colorScheme="blue" onClick={this.onClickRefresh}>
+                <Text fontSize="5vh"> Refresh </Text>
+            </Button>
+            {this.state.Rankings.map(item =>(
+                <Text key={item}> {item.Name}    {item.numSolved}</Text>
+            ))}
 
              </Flex>;
     }
